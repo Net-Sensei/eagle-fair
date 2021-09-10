@@ -1,0 +1,39 @@
+.servicesPage {
+    background-image: url(./dist/svg/bg.svg);
+    background-color: #F0F2F5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: revert;
+}   
+
+.servicesCard{
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    padding: 10px;
+}
+
+.serviceCardImg > img {
+    object-fit: contain;
+}
+
+.servicesPage_header {
+    background-image: url(./dist/banner/banner2.jpg);
+    background-color: #F0F2F5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+    filter: brightness(0.9);
+    height: 60vh;
+}
+
+.servicesPage_header > .servicePageHeader__title {
+    position: absolute;
+    top: 57%;
+    border-left: 8px solid #1cccc9;
+    font-weight: bold;
+    filter: drop-shadow(13px 14px 1px black);
+    left: 80px;
+    z-index: 99999;
+}

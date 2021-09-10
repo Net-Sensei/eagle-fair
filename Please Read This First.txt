@@ -1,0 +1,17 @@
+ 1. Hey There ! 
+
+ 
+ 1.There were total 5 pages in your site ... but there was a option for ( privacy policy & terms-conditions )
+ but the both pages were missing in your site ****check in footer 
+
+ 2. So i additionally added these two pages on my own ( Privacy and terms )
+
+ How to Run
+
+ 3. First Open Code in  Vs Code or any editor u have
+ 4.Go To eagle-fire ( <= sorry about the spelling ) directory. using command prompt / git-bash 
+ 5. Run This Command .. npm start .. Now your good to go check your React App Website ..
+
+ Good Luck
+
+ Thanks for the order........ 	

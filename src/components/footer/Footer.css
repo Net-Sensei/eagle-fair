@@ -1,0 +1,41 @@
+.footer {
+    position:relative;
+    background-color: #333333;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.card.border-0.p-0.footerCard {
+    background: transparent;
+    color: #fff;
+}
+
+.card-body.footerCardBody > ul > li {
+    background: transparent;
+    color: #fff !important;
+    border: 1px solid rgb(255 255 255 / 22%);
+}
+
+/* Bottom To Top */
+.footer__header {
+    padding: 0 52px;
+    display: flex;
+    justify-content: right;
+    background-color: #f0f2f5;
+}
+
+.btn-bottomTop {
+    background: #20C9C9;
+    position: relative;
+    height: -moz-fit-content;
+    height: fit-content;
+    transition: 0.2s ease-in-out;
+    animation: mymove 0.3s infinite;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 50%;
+}
+
+@keyframes mymove {
+  from {bottom: 0px;}
+  to {bottom: 10px;}
+}

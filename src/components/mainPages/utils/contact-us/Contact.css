@@ -1,0 +1,21 @@
+.contact {
+    background-image: url(./dist/svg/bg2.svg);
+    background-color: #F0F2F5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form > input, textarea {
+    margin-bottom: 20px;
+}
+
+.contact-form > a {
+    background-color: teal;
+    color: #fff !important;
+}

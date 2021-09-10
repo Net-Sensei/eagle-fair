@@ -1,0 +1,42 @@
+.clients {
+    /* background-image: url(./dist/svg/bg.svg); */
+    background-color: #F0F2F5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.clientCard{
+    width: 20%;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+
+@media (max-width: 991px){
+    .clientCard{
+        width:24%;
+    }
+    .clientCard > .card-body > img {
+        width: 168px;
+        object-fit: contain;
+    }
+}
+@media (max-width: 768px){
+    .clientCard{
+        width:20%;
+    }
+    .clientCard > .card-body > img {
+        width: 90px;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 500px){
+    .clientCard{
+        width:20%;
+    }
+    .clientCard > .card-body > img {
+        width: 90px;
+        object-fit: contain;
+    }
+}

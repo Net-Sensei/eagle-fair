@@ -1,0 +1,17 @@
+.services {
+    background-image: url(./dist/svg/tri.svg);
+    background-color: #F0F2F5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.serviceCard{
+    width: 300px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    transition: 0.1s;
+}
+
+.serviceCard:hover{
+    transform: scale(1.1);
+}
